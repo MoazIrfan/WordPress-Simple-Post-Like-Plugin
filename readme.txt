@@ -12,7 +12,7 @@ Allow user add post like button above or below post content.
 
 Allow user add post like button above or below post content
 
-Major features in Gp post Like include:
+Features:
 
 * Setting option checkbox  Allow user add post like button above or below post content
 
