@@ -1,0 +1,25 @@
+.post-like{
+    margin-top:20px;
+}
+ 
+.like{
+    background:url(../images/like-icon.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+    float:left;
+    margin-right: 4px;
+    -moz-transition: all 0.2s ease-out 0.1s;
+    -webkit-transition: all 0.2s ease-out 0.1s;
+    -o-transition: all 0.2s ease-out 0.1s
+}
+ 
+.post-like a:hover .like{
+     background:url(../images/liked-icon.png) no-repeat;
+}
+ 
+.voted .like,.post-like .alreadyvoted{
+    background:url(../images/liked-icon.png) no-repeat;
+}
+
+.liked_msg{color:red;display:inline-block;padding:0px 5px;}
