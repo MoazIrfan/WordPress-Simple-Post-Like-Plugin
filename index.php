@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Rareiio Post Like
-Plugin URI: 
+Plugin URI: https://github.com/MoazIrfan/Rareiio-Post-Like
 Version: 1.0
 Author: Moaz Irfan
 Description: Allow user add post like button above or below post content.
