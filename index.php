@@ -50,7 +50,7 @@ function rareiio_script() {
 	
 	wp_enqueue_style('rareiio-style', RAREIIO_POST_LIKE_PLUGIN_URI.'css/rareiio-style.css', false, '1.0', 'all');
 	wp_enqueue_script( 'rareiio-script', RAREIIO_POST_LIKE_PLUGIN_URI . 'js/rareiio-script.js', array( 'jquery' ), 0.1, true );
-	wp_localize_script('like_post', 'ajax_var', array(
+	wp_localize_script('rareiio-script', 'ajax_var', array(
 	    'url' => admin_url('admin-ajax.php'),
 	    'nonce' => wp_create_nonce('ajax-nonce')
 	));
