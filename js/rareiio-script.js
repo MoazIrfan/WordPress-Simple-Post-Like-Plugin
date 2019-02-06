@@ -11,7 +11,7 @@ jQuery(document).ready(function() {
         jQuery.ajax({
             type: "post",
             url: ajax_var.url,
-            data: "action=gppl_post_like&nonce="+ajax_var.nonce+"&post_like=&post_id="+post_id,
+            data: "action=rareiio_post_like&nonce="+ajax_var.nonce+"&post_like=&post_id="+post_id,
             success: function(count){
                 // If vote successful
                 if(count != "already")
