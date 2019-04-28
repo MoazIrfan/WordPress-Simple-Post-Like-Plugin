@@ -1,4 +1,4 @@
-=== Rareiio Post Like  ===
+=== WordPress Simple Post Like Plugin  ===
 Contributors: moazirfan
 Tags: like,post like,voting,post voting.
 Requires at least: 4.0
